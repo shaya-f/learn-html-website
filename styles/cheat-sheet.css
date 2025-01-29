@@ -1,0 +1,84 @@
+#Cheat-Sheet {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#Cheat-Sheet h2 {
+    padding-top: 90px;
+}
+
+.cheat-container {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 1250px;
+    padding: 10px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.html-cheat tr, .css-cheat tr {
+    height: 25px;
+}
+
+.html-cheat, th, td{
+    background-color: rgba(80, 80, 80, 0.1);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    padding: 10px 20px;
+    color: white;
+}
+
+.html-cheat, th {
+    text-align: center;
+}
+
+.html-cheat, td {
+    text-align: left;
+}
+
+.css-cheat, th, td {
+    background-color: rgba(80, 80, 80, 0.1);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    padding: 10px 20px;
+    color: white;
+}
+
+.css-cheat, th {
+    text-align: center;
+}
+
+.css-cheat, td {
+    text-align: left;
+}
+
+#Search-Tags, #Search-Tags-css {
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #363636;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    background-color: rgba(80, 80, 80, 0.2);
+    color: white;
+    margin: 1px;
+    margin-bottom: 10px;
+}
+
+#Search-Tags:focus, #Search-Tags-css:focus {
+    outline-color: #888888;
+    outline-style: solid;
+}
+
+.html-cheat-container, .css-cheat-container {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: rgba(104, 104, 104, 0.2) rgba(80, 80, 80, 0.3);
+    height: 500px;
+}

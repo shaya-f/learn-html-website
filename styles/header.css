@@ -1,0 +1,54 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 5px;
+    width: 95.7%;
+    padding-left: 50px;
+}
+
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h1 a:active {
+    color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
+}
+
+header ul li {
+    padding: 10px 0px;
+    border-radius: 4px;
+}
+
+header ul li:hover {
+    background-color: rgba(203, 203, 203, 0.2);
+    transform: scale(1.1);
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    text-decoration: none;
+    padding: 15px;
+}

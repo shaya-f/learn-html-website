@@ -1,0 +1,59 @@
+#Lessons {
+    text-align: center;
+}
+
+#Lessons h2 {
+    margin: 0;
+    padding-top: 110px;
+}
+
+.lessons-grid {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.5);
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    /* max-width: fit-content; */
+    margin: 20px auto;
+    border-radius: 8px;
+    width: 1010px;
+}
+
+.lesson-card {
+    display: inline-block;
+    height: 100px;
+    width: 1000px;
+    background-color: rgba(80, 80, 80, 0.2);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    margin: 0;
+    opacity: 0;
+    padding: 38px 0;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+a .lesson-card .text {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a .lesson-card .text:active {
+    color: grey;
+}
+
+.lesson-card:hover {
+    /* background-image: url(); */
+    background-color: rgba(30, 44, 71, 0.2);
+    transform: scale(1.005, 1.05);
+}
+
+.text:hover {
+    opacity: 1;
+}
